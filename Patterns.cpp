@@ -100,6 +100,11 @@ int main(){
   cout << "[3]. Right Triangle" << endl;
   cout << "[4]. Full Triangle" << endl;
   cout << "[5]. Diamond Shape" << endl;
+  cout << "[6]. Inverted Left Triangle" << endl;
+  cout << "[7]. Inverted Right Triangle" << endl;
+  cout << "[8]. Inverted Full Triangle" << endl;
+  cout << "[9]. Heart Shape" << endl;
+  cout << "[10]. Star Shape" << endl;
   cout << "Enter your choice: ";
   cin >> choice;
 
