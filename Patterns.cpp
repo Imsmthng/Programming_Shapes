@@ -136,6 +136,36 @@ void Inverted_Full_Triangle(){
 
 void Heart_Shape(){
 
+  cout << "Enter size of Hear Shape: ";
+  cin >> size;
+  int i = size;
+
+  for(int rows = size / 2; rows <= size; rows = rows+2){
+    for(int space = 1; space < size - rows; space = space+2){
+      cout << " ";
+    }
+    for(int output = 1; output <= rows; output++){
+      cout << "*";
+    }
+    for(int space = 1; space <= size - rows; space++){
+      cout << " ";
+    }
+    for(int output = 0; output <= rows - 1; output++){
+      cout << "*";
+    }
+    cout << endl;
+  }
+  i = 1;
+  for(int rows = 1; rows <= size - 1; rows++){
+    for(int space = 1; space <= i; space++){
+      cout << " ";
+    }
+    i++;
+    for(int cols = 1; cols <= 2 * (size - rows) - 1; cols++){
+      cout << "*";
+    }
+    cout << endl;
+  }
 }
 
 void Star_Shape(){
